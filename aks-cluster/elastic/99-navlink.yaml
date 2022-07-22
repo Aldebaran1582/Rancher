@@ -1,0 +1,10 @@
+apiVersion: ui.cattle.io/v1
+kind: NavLink
+metadata:
+  name: kibana
+spec:
+  group: "Monitoring"
+  label: Kibana
+  toURL: http://kibana.ingress.host
+
+
